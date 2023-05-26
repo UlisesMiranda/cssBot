@@ -1,10 +1,30 @@
+.bpw-layout{
+  border: #01538E
+  
+}
 .bpw-header-title{
-  background-color: blue;
+  color: white;
+  font-size: medium;
+  font-family: 'Oswald', sans-serif;
 }
 .bpw-header-container{
-  background-color: aqua;
+  background-color: #01538E;
+}
+.bpw-send-button{
+  background-color: #699BF7;
+  color: white;
+  padding: 4px 3px;
 }
 
-.bpw-send-button{
-  background-color: red;
+.bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
+  background-color: #699BF7;
+  border-radius: 6px;
+}
+
+.bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
+  border-radius: 6px;
+}
+
+.bpw-button{
+  border-color: #01538E;
 }
