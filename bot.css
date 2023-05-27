@@ -1,6 +1,6 @@
 .bpw-layout{
-  border: #01538E
-  
+  border: 2px;
+  border-color: #01538E;
 }
 .bpw-header-title{
   color: white;
@@ -13,16 +13,18 @@
 .bpw-send-button{
   background-color: #699BF7;
   color: white;
-  padding: 4px 3px;
+  padding: 8px 6px;
 }
 
 .bpw-from-user .bpw-chat-bubble .bpw-chat-bubble-content{
   background-color: #699BF7;
   border-radius: 6px;
+  color:white
 }
 
 .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content{
   border-radius: 6px;
+  color:black
 }
 
 .bpw-button{
